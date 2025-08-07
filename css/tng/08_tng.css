@@ -1,0 +1,10 @@
+div{
+  border: 1px solid black;
+  width:200px;
+  height: 200px;
+}
+
+body{padding: 50px;position: relative;}
+.po2{position: absolute;left:300px; top:90px;}
+.po3{position: relative;
+top:100px;}

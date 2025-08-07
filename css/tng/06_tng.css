@@ -1,0 +1,32 @@
+
+
+h2{text-align: center;}
+.text{text-align: center;}
+div{
+  padding: 10px;
+  width:800px;
+  margin:0 auto;
+  border: 1px solid black;
+}
+.check>p{margin:0;}
+h1{color: white;margin-left: 10px;}
+h2{color: #ce1414;}
+.header{
+  background-color: black;
+
+}
+.header>p{color:#a78b68;margin:10px;padding-bottom: 10px;}
+
+.check{
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  
+}
+.content>p , .footer>p {text-align: center; font-weight: 550;}
+p{font-size: 20px;}
+.time{font-size: 15px;margin-bottom: 20px;}
+
+.content>p , footer>p{ line-height: 40px;}
+.footer{border-top:none ;}
+span{color: blue;}
