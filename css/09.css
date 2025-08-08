@@ -1,0 +1,31 @@
+.background-test1{
+  padding: 10px;
+  background-color: #6495ed;
+  border: 3px dotted black;
+  background-clip: content-box;
+}
+.div-background-img{
+  width: 1000px;
+  height: 1000px;
+  /* 배걍이미지로 지정 */
+  background-image: url("../img/logo.png"), url("../img/ham.jpg");
+  /* 배경 이미지의 크기 조절 */
+  background-size: 200px;
+  /* 배경 이미지의 반복 방법 조절 */
+  background-repeat: no repeat;
+}
+body{
+  background-image: url("../img/logo.png");
+  /* 스크롤이 생길 경우 요소의 이미지를 고정시키는 옵션 */
+  background-attachment: cover;
+  /* 배경 이미지 위치를 조절 */
+  background-position: top 0 right 0;
+}
+.div-gradation{
+  width:500px;
+  height:500px;
+  /* background:linear-gradient(45deg, #000,#fff 20%, #000fff); */
+  /* 선형그라데이션  */
+  background:radial-gradient(circle at 0% 50%, #000, #fff,#000fff);
+  
+}
